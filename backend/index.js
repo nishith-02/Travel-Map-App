@@ -1,7 +1,7 @@
 import express from 'express'
 import mongoose from 'mongoose'
 import dotenv from 'dotenv'
-import pinRouter from './routers/pins.js'
+import pinRouter from './routers/pins.js'   
 import userRouter from './routers/users.js'
 dotenv.config()
 const app=express()
