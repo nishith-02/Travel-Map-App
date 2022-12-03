@@ -3,6 +3,7 @@ import User from '../models/users.js'
 import bcrypt from 'bcryptjs'
 const userRouter=express.Router()
 
+
 userRouter.post('/register',async(req,res)=>{
     try{
         const {username,password,email}=req.body
